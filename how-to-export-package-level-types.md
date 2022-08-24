@@ -1,3 +1,5 @@
+# Reduced Test Case: How to import types.js?
+
 Trying to figure out how to import package level types.
 
 ```txt
