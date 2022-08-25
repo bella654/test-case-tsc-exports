@@ -27,6 +27,8 @@ cd ./aaaf1a5c469a47d40f5f57d37ea4484f/
 tsc -p tsconfig.json
 ```
 
+❌
+
 ```txt
 main.js:4:19 - error TS2306: File '/private/tmp/aaaf1a5c469a47d40f5f57d37ea4484f/node_modules/foo/types.js' is not a module.
 
@@ -46,6 +48,8 @@ Found 1 error in main.js:4
 )
 ```
 
+✅
+
 ### Package Bar
 
 ```sh
@@ -54,6 +58,8 @@ Found 1 error in main.js:4
     tsc -p tsconfig.json
 )
 ```
+
+❌
 
 ```txt
 bar.js:3:12 - error TS2552: Cannot find name 'Bar'. Did you mean 'bar'?
